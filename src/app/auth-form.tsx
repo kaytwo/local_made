@@ -12,7 +12,7 @@ export default function AuthForm() {
       supabaseClient={supabase}
       view="sign_in"
       appearance={{ theme: ThemeSupa }}
-      theme="dark"
+      theme="light"
       providers={[]}
       redirectTo="https://incomparable-llama-1b3592.netlify.app/auth/callback"
     />
