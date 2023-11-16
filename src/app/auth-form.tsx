@@ -39,7 +39,7 @@ export default function AuthForm() {
       appearance={{ theme: ThemeSupa }}
       theme="dark"
       providers={[]}
-      redirectTo={`http://localhost:3000/auth/callback`}
+      redirectTo={`https://spectacular-centaur-c12895.netlify.app/auth/callback`}
     />
   )
   }
