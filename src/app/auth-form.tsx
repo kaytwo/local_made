@@ -14,6 +14,7 @@ export default function AuthForm() {
       appearance={{ theme: ThemeSupa }}
       theme="dark"
       providers={[]}
+      //redirectTo="http://localhost:3000/auth/callback"
       redirectTo="https://incomparable-llama-1b3592.netlify.app/auth/callback"
     />
   )
